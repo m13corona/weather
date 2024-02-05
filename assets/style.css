@@ -8,17 +8,30 @@ h1 {
 }
 
 .search-history {
+    padding: auto;
+  }
+  
+.current-weather {
     padding: 10px;
-    width: 250px;
+    width: 800px;
     height: 350px;
+    left: 500px;
     text-align: center;
-    border-style: solid;
+ 
     border-width: 1px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    /* Centers along the opposite axis */
+    align-items: center;
+    width: 90%;
+    /* Uses the height of the viewport */
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
   }
-  
-.card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-  
